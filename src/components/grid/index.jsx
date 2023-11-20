@@ -191,6 +191,7 @@ export const GridLayout = () => {
                   })}
                   <Tooltip title="Edit">
                     <ListItemIcon
+                      sx={{ cursor: "pointer" }}
                       onClick={() => {
                         handleEdit(params.row.id, date);
                       }}
@@ -199,7 +200,10 @@ export const GridLayout = () => {
                     </ListItemIcon>
                   </Tooltip>
                   <Tooltip title="Delete">
-                    <ListItemIcon onClick={handleDeleteDialogOpen}>
+                    <ListItemIcon
+                      sx={{ cursor: "pointer" }}
+                      onClick={handleDeleteDialogOpen}
+                    >
                       <DeleteIcon fontSize="small" />
                     </ListItemIcon>
                   </Tooltip>
@@ -341,7 +345,7 @@ export const GridLayout = () => {
             variant="contained"
             onClick={() => setOpenCreate(true)}
           >
-            New Appointment
+            New Client
           </Button>
           <Modal
             open={openCreate}
