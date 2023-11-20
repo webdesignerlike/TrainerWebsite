@@ -31,7 +31,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 6. To delete a particular appointment, click on Delete icon near that selected date and time, and the confirmation step will be there.
 7. To delete a client information (delete a row), in the Actions column, click on the delete icon of which client you want to delete.
 8. Now, to see all scheduled appointments of each and every client, click on Show Calendar button.
-9. The error messages and feedback to the trainer on the outcome of your actions.
+9. The error messages and feedback to the trainer on the outcome of your actions.(alert will show when a client row is deleted and added and error will show when you add empty appointment)
 
 
 
